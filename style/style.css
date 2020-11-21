@@ -1,16 +1,115 @@
 body {
   font-family: Charcoal, Tahoma, sans-serif;
+  background-color: rgb(224, 224, 224);
+  margin-left: 15px;
 }
-table,
-th,
-tr {
+#portrait {
+  background-color: white;
+  width: 100%;
+}
+
+#doc {
+  display: block;
+  background-color: #cfd9db;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 20px 10px 10px 20px;
+  /* margin: 0px 50px 50px 50px; */
+}
+
+#img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  size: 25%;
+}
+th {
   text-align: left;
   border: 1px solid black;
   border-spacing: 3px;
+}
+
+tr {
+  text-align: center;
+  border: 1px solid black;
+  border-spacing: 3px;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: left;
+  border: 1px solid black;
+  border-spacing: 3px;
+  margin-bottom: 50px;
 }
 
 td {
   padding: 3px;
   border: 1px solid black;
   border-spacing: 3px;
+}
+
+.time {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.parallax {
+  background-image: url("/img/icy.jpg");
+  width: 100%;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#myName {
+  font-family: "calligraffitti";
+  font-size: 30px;
+  padding-right: 100px;
+}
+
+#nav {
+  text-align: center;
+  margin: 50px 10px 50px 10px;
+  padding: 50px;
+  font-size: 20px;
+  background-color: #cfd9db;
+}
+
+.nav {
+  padding: 10px;
+  color: #002a35;
+}
+
+.DM {
+  background-color: #88bcc9;
+}
+
+.WP {
+  background-color: #c2bd77;
+}
+
+.CN {
+  background-color: #68a771;
+}
+
+.IA {
+  background-color: #c48484;
+}
+
+.work {
+  background-color: rgb(139, 139, 165);
+}
+
+.study {
+  background-color: #8f6b61c7;
+}
+
+.free {
+  background-color: #90c233;
 }
